@@ -1,0 +1,43 @@
+@import 'packages/task/task.scss';
+@import 'packages/add-task/add-task.scss';
+@import 'packages/preloader/preloader';
+
+.tasks {
+  width: 800px;
+  margin: 48px auto;
+  padding: 40px;
+
+  box-shadow: 0 0 5px rgba(#000, 0.5);
+
+  &__loading {
+    @extend %block-preloader;
+  }
+
+  &_filters {
+    &_item {
+      display: inline-block;
+
+      padding: 4px 8px;
+
+      cursor: pointer;
+
+      border: 1px solid #ccc;
+      border-radius: 3px;
+
+      & + & {
+        margin-left: 24px;
+      }
+
+      &__active {
+        color: #fff;
+        background-color: #ccc;
+      }
+    }
+  }
+
+  &_list {
+    margin-top: 40px;
+
+    list-style: none;
+  }
+}

@@ -1,0 +1,69 @@
+.task {
+  padding: 8px 24px;
+
+  cursor: pointer;
+
+  &__completed {
+    text-decoration: line-through;
+  }
+}
+body {
+    font:12px arial;
+    color: #222;
+    text-align:center;
+    padding:35px;
+  }
+
+.clearfix:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+
+form, p, span {
+    margin:0;
+    padding:0;
+}
+
+input { font:12px arial; }
+
+a {
+    color:#0000FF;
+    text-decoration:none;
+}
+  a:hover { text-decoration:underline; }
+
+#wrapper {
+    margin:0 auto;
+    padding-bottom:25px;
+    background:#EBF4FB;
+    width:800px;
+    border:1px solid #ACD8F0;
+}
+
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:750px;
+    border:1px solid #ACD8F0;
+    overflow:auto;
+}
+
+#usermsg {
+  width: 200px;
+  border: 1px solid #acd8f0;
+  margin: 0 20px 0 -370px;
+  padding: 8px 24px;
+}
+
+#submitmsg { width: 60px; }
+
+#menu { padding:12.5px 25px 12.5px 25px; }
+
+.welcome { float:left; }
+
+.logout { float:right; }

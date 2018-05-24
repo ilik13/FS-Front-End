@@ -1,0 +1,27 @@
+.add-task {
+  margin-top: 40px;
+
+  &_label {
+    display: block;
+  }
+
+  &_field {
+    display: inline-block;
+    width: 550px;
+    margin-right: 20px;
+
+    margin-top: 8px;
+    padding: 8px 24px;
+
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  &_button {
+    margin-top: 8px;
+    padding: 8px 24px;
+
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "react-redux",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ShelpakovSergey/react-redux.git",
+  "author": "ShelpakovSergey <shelpakovsergey@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "css-hot-loader": "^1.3.9",
+    "eslint-plugin-react": "^7.7.0",
+    "file-loader": "^1.1.11",
+    "immutable": "^3.8.2",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-dom-factories": "^1.0.2",
+    "react-hot-loader": "^4.1.3",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "resolve-url-loader": "^2.3.0",
+    "whatwg-fetch": "^2.0.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.0.6",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "moduleRoots": [
+    "./packages"
+  ]
+}
